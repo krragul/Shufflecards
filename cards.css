@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 85vh;
+    background: #EFEFEF;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.title {
+    background: white;
+    padding: 4px;
+    font-family: sans-serif;
+}
+
+.fotter {
+    width: 100%;
+    display: flex;
+    background: #efefef;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.card-panel {
+    float: left;
+    width: 60%;
+    text-align: center;
+    border-top: 4px solid #C3C3C3;
+}
+
+.button-panel {
+    float: right;
+    width: 40%;
+    text-align: center;
+    border-top: 4px solid #C3C3C3;
+}
+
+.card-list {
+    float: left;
+    font-size: 4rem;
+    font-family: monospace;
+    color: white;
+    height: 150px;
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+}
+
+.btn {
+    width: 40%;
+    height: 3rem;
+    color: white;
+    background: #72C3DC;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 3px solid #2F8FAE;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #6F98A8;
+}
+
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+.mt-2rem {
+    margin-top: 2rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
+
+.ptb {
+    padding: 1rem 0rem 4rem 0rem;
+}
+
+
+.text-center {
+    text-align: center;
+    ;
+}
+
+@media only screen and (max-width:960px) {
+    .container {
+        background: none;
+    }
+
+    .title {
+        background: #333333;
+        color: white;
+        padding: 1.7rem;
+        font-size: 2rem;
+    }
+
+    .card-panel {
+        width: 100%;
+        border-top: none;
+    }
+
+    .button-panel {
+        width: 100%;
+        border-top: none;
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-list {
+        font-size: 2rem;
+        font-family: monospace;
+        color: black;
+        height: 54px;
+        background: #CCCCCC;
+        border-left: 0px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: -webkit-fill-available;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    .sort-button {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: start;
+        margin-left: 4px;
+
+    }
+
+    .shuffle-button {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: end;
+        margin-right: 4px;
+    }
+
+    .mt-2rem {
+        margin-top: 0rem;
+    }
+
+    .p-5px {
+        padding: 5px;
+    }
+
+    .btn {
+        width: 65%;
+        height: 3.5rem;
+        color: white;
+        background: #72C3DC;
+        border-radius: 5px;
+        border: none;
+        border-bottom: 3px solid #2F8FAE;
+        cursor: pointer;
+    }
+
+    .fotter {
+        width: 100%;
+        display: flex;
+        background: none;
+        align-items: center;
+        justify-content: center;
+    }
+}
